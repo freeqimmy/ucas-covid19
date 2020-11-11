@@ -137,7 +137,7 @@ $ crontab -e
 - 2020年11月7日 使用环境变量传递口令，解决密码中存在特殊字符导致 sed 截断的问题
 - 2020年11月9日 bugfix: 修复环境变量传递口令中存在的 bug， 经过测试已经 work 了，面壁思过中 :( 
 
-freeqimmy
+freeqimmy000
 
 # 致谢
 - 感谢 [karuboniru](https://github.com/IanSmith123/ucas-covid19/pull/1) 提供的github actions 支持
