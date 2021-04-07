@@ -38,8 +38,6 @@ TZ=Asia/Shanghai
 ln -snf /usr/share/zoneinfo/$TZ /etc/localtime && echo $TZ > /etc/timezone
 ```
 
-
-
 # 方法二： 使用 GitHub Actions（推荐使用）
 没有服务器的同学可以使用 GitHub Action 来进行运行此程序。
 
@@ -94,8 +92,6 @@ pause
 
   ![](setting3.png "取消勾选")
 任务计划程序的设置会很直观，你还可以设置如果任务执行失败后多长时间再次尝试执行。需要注意的一点是，设定的时间最好能切合自己常打开电脑的时间。任务执行的时候，会弹出一个DOS窗口，执行完成之后关掉即可。
-
-
 
 
 # 方案四：使用MacOS的crontab定时任务（适合每天需要打开电脑来学习的同学）
@@ -155,6 +151,7 @@ $ crontab -e
 - 2021年1月25日 添加了 github actions 缓存 cookies 的配置
 - 2021年1月27日 优化了取 github 环境变量的方式，减少未设置变量导致出错的概率；兼容 python 3.5 的 pathlib
 - 2021年1月29日 解决接触时间 1970-01-01的问题， 见 [issue 36](https://github.com/IanSmith123/ucas-covid19/issues/36)
+
 
 
 # 致谢
